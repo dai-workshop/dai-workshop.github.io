@@ -944,25 +944,25 @@
             color: #444;
         }
 
-        /* Abstract hover styles */
-        .abstract-container {
-            position: relative;
-            display: inline-block;
-            margin-bottom: 10px;
-        }
+       /* ===== Speaker-only abstract hover styles ===== */
+      #speaker .abstract-container {
+              position: relative;
+              display: inline-block;
+              margin-bottom: 10px;
+      }
 
-        .abstract-label {
-            font-size: 13px;
-            font-weight: 600;
+      #speaker .abstract-label {
+               font-size: 13px;
+               font-weight: 600;
             color: #337ab7;
             cursor: pointer;
-        }
+                }
 
-        .abstract-label:hover {
+        #speaker .abstract-label:hover {
             text-decoration: underline;
         }
 
-        .abstract-popup {
+        #speaker .abstract-popup {
             visibility: hidden;
             opacity: 0;
             position: absolute;
@@ -983,7 +983,7 @@
             z-index: 1000;
         }
 
-        .abstract-popup::before {
+        #speaker .abstract-popup::before {
             content: "";
             position: absolute;
             bottom: 100%;
@@ -994,7 +994,7 @@
             border-color: transparent transparent #ffffff transparent;
         }
 
-        .abstract-container:hover .abstract-popup {
+        #speaker .abstract-container:hover .abstract-popup {
             visibility: visible;
             opacity: 1;
         }
