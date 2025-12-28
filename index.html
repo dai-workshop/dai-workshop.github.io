@@ -893,11 +893,11 @@
         </div>
         </div> 
     </section> -->
+
+
 <!-- Speaker Section -->
 <section id="speaker">
     <style>
-        /* Add these styles to your existing style section */
-
         /* Common container width */
         #speaker .container,
         #organization .container {
@@ -925,38 +925,18 @@
             margin: 0 auto;
         }
 
-        /* Organizers Grid - 5x3 */
-        .organizers-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 20px;
-            width: 100%;
-            padding: 0 40px;
-        }
-
-        .organizers-grid .team-member {
-            text-align: center;
-        }
-
-        .organizers-grid .team-member img {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto;
-        }
-
         /* Keep circular images */
         .img-circle {
             border-radius: 50%;
         }
 
-        /* Remove existing column classes effects for these sections */
-        #speaker .col-sm-2,
-        #organization .col-sm-2 {
+        /* Remove existing column classes effects */
+        #speaker .col-sm-2 {
             width: auto;
             padding: 0;
         }
 
-        /* Talk title & abstract */
+        /* Talk title */
         .talk-title {
             font-size: 14px;
             font-style: italic;
@@ -964,12 +944,59 @@
             color: #444;
         }
 
-        .talk-abstract {
+        /* Abstract hover styles */
+        .abstract-container {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .abstract-label {
             font-size: 13px;
-            color: #555;
-            margin: 0 auto 10px;
-            max-width: 260px;
+            font-weight: 600;
+            color: #337ab7;
+            cursor: pointer;
+        }
+
+        .abstract-label:hover {
+            text-decoration: underline;
+        }
+
+        .abstract-popup {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            top: 130%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 340px;
+            background: #ffffff;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 12px;
+            font-size: 13px;
             line-height: 1.4;
+            text-align: left;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transition: opacity 0.25s ease;
+            z-index: 1000;
+        }
+
+        .abstract-popup::before {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 7px;
+            border-style: solid;
+            border-color: transparent transparent #ffffff transparent;
+        }
+
+        .abstract-container:hover .abstract-popup {
+            visibility: visible;
+            opacity: 1;
         }
     </style>
 
@@ -984,31 +1011,54 @@
 
         <div class="speakers-grid">
 
+            <!-- Speaker 1 -->
             <div class="team-member">
                 <img src="./files_new/ramayya-krishnan-bio.jpg" class="img-responsive img-circle">
                 <a href="https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya">
                     <h4>Ramayya Krishnan</h4>
                 </a>
                 <p class="text-muted">Carnegie Mellon University</p>
-                <p class="talk-title"> AI Capabilities vs. AI Deployment: Models and methods to fill the gap </p>
-                <p class="talk-abstract"> AI capabilities are developing rapidly. New benchmarks such as GDPval have begun to focus on realistic tasks (see https://evals.openai.com/). For example, GDPval tracks 44 occupations and 1230 tasks across 9 sectors that matter most to the US economy and compares the performance of AI’s to human experts on those tasks. While the benchmarks show that AI (LLM/LRM) models are closing in on human level performance in each of the 9 sectors, firms and public sector organizations alike report challenges in deploying AI and harnessing it in ways that could generate value. This talk will focus on this capability-deployment gap. Specifically, I will argue that to fill this gap, a “systems” approach is required that accounts for the user, organizational and policy constraints on deployment. Drawing on methods from operations research and statistics, I will discuss work on deployment that is informed by measurement science and evaluation.  In this I will highlight our work on the use of survival analysis to characterize robustness in question answering applications and our ongoing work on redesigning workflows (both tasks and how they are organized) when AI is used to either complement or substitute human work. This research was funded
-in part by the National Institute of Standards and Technology (ror.org/05xpvk416) under Federal Award ID Number 60NANB24D231 and Carnegie Mellon University (https://ror.org/05x2bcf33) AI Measurement Science and Engineering Center (AIMSEC).
- </p>
-                
+                <p class="talk-title">
+                    AI Capabilities vs. AI Deployment: Models and methods to fill the gap
+                </p>
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        AI capabilities are developing rapidly, with new benchmarks
+                        focusing on realistic tasks. While models approach human-level
+                        performance, organizations struggle to deploy them effectively.
+                        This talk examines the capability–deployment gap and argues for
+                        a systems approach that incorporates user, organizational, and
+                        policy constraints. Methods from operations research and
+                        statistics are used to inform evaluation, robustness, and
+                        workflow redesign for human–AI collaboration.
+                    </div>
+                </div>
             </div>
 
+            <!-- Speaker 2 -->
             <div class="team-member">
                 <img src="./files_new/pradeepv.jpg" class="img-responsive img-circle">
                 <a href="http://www.mysmu.edu/faculty/pradeepv/">
                     <h4>Pradeep Varakantham</h4>
                 </a>
                 <p class="text-muted">Singapore Management University</p>
-                <p class="talk-title">Towards Reliable Assistance: Safety and Security in Sequential Decision-Making</p>
-                <p class="talk-abstract">In this talk, I will be briefly describe our broad research agenda of developing and deploying sequential decision making systems that assist humans. Within this context, I will provide specific details on our recent work in Constrained Reinforcement Learning (RL) and defense against adversarial attacks, demonstrating how we can ensure agents remain both safe under constraints and robust against malicious interference.
+                <p class="talk-title">
+                    Towards Reliable Assistance: Safety and Security in Sequential Decision-Making
                 </p>
-                
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        This talk outlines a research agenda on developing sequential
+                        decision-making systems that assist humans. It highlights
+                        recent work on constrained reinforcement learning and defenses
+                        against adversarial attacks, ensuring agents remain safe under
+                        constraints and robust to malicious interference.
+                    </div>
+                </div>
             </div>
 
+            <!-- Speaker 3 -->
             <div class="team-member">
                 <img src="./files_new/pw2.jpg" class="img-responsive img-circle">
                 <a href="https://koh.pw/">
@@ -1016,25 +1066,43 @@ in part by the National Institute of Standards and Technology (ror.org/05xpvk416
                 </a>
                 <p class="text-muted">University of Washington</p>
                 <p class="talk-title">TBD</p>
-                <p class="talk-abstract">TBD</p>
-                
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        TBD
+                    </div>
+                </div>
             </div>
 
+            <!-- Speaker 4 -->
             <div class="team-member">
                 <img src="./files_new/bl.jpeg" class="img-responsive img-circle">
                 <a href="https://sites.google.com/site/boyilics/home">
                     <h4>Boyi Li</h4>
                 </a>
                 <p class="text-muted">NVIDIA Research, UC Berkeley</p>
-                <p class="talk-title">FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos</p>
-                <p class="talk-abstract">Understanding motion is central to physical reasoning, enabling models to infer dynamics and predict future states. Despite recent progress, state-of-the-art vision-language models continue to struggle on motion-centric benchmarks, largely due to the lack of large-scale, fine-grained motion datasets. Existing datasets rely heavily on manual annotation, making them costly and difficult to scale. We introduce FoundationMotion, a fully automated pipeline for curating large-scale motion datasets from videos. Our approach detects and tracks objects to extract trajectories, then combines these trajectories with video frames and Large Language Models to generate fine-grained motion captions and diverse question–answer pairs targeting motion and spatial reasoning. Using datasets produced by FoundationMotion, we fine-tune open-source models such as NVILA-Video-15B and Qwen2.5-7B, achieving substantial improvements in motion understanding while preserving performance on other tasks. Notably, the resulting models outperform strong closed-source baselines, including Gemini-2.5 Flash, as well as large open-source models such as Qwen2.5-VL-72B across a range of motion understanding benchmarks. Overall, FoundationMotion offers a scalable and effective solution for constructing fine-grained motion datasets, enabling robust improvements in motion understanding and spatial reasoning across diverse models.
+                <p class="talk-title">
+                    FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos
                 </p>
-                
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        Understanding motion is central to physical reasoning, yet
+                        existing datasets are costly to scale. This talk introduces
+                        FoundationMotion, an automated pipeline that constructs
+                        large-scale motion datasets from videos using object tracking
+                        and large language models. Models trained on these datasets
+                        achieve substantial gains in motion understanding and spatial
+                        reasoning, outperforming strong closed- and open-source baselines.
+                    </div>
+                </div>
             </div>
 
         </div>
     </div>
 </section>
+
+
 
 
     <section id="organization">
