@@ -1105,139 +1105,138 @@
 
 
 
-    <section id="organization">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-heading">Workshop Organizers</h2>
-                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
-                </div>
+<section id="organization">
+    <style>
+        /* Organization Section Grid */
+        #organization .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .organizers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Flexible 5-column layout */
+            gap: 20px;
+            justify-items: center; /* Center each organizer */
+            padding: 0 20px;
+        }
+
+        .organizers-grid .team-member {
+            text-align: center;
+        }
+
+        .organizers-grid .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular */
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .organizers-grid .team-member h4 {
+            font-size: 16px;
+            margin: 5px 0 2px;
+        }
+
+        .organizers-grid .team-member p {
+            font-size: 14px;
+            color: #777;
+            margin: 0;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Workshop Organizers</h2>
             </div>
-            <br>
-            <br>
-            <br>
-            <div class="organizers-grid">
-                <div class="team-member">
-                    <img src="./files_new/BR.jpg" class="img-responsive img-circle">
-                    <a href="https://dsai.iitm.ac.in/~ravi/">
-                        <h4>Balaraman Ravindran</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
+        </div>
 
-                <div class="team-member">
-                    <img src="./files_new/AR.jpg" class="img-responsive img-circle">
-                    <a href="https://research.google/people/107631/?&type=google">
-                        <h4>Aravindan Raghuveer</h4>
-                    </a>
-                    <p class="text-muted">Google DeepMind</p>
-                </div>
+        <br><br><br>
 
-                <div class="team-member">
-                    <img src="./files_new/KP.jpg" class="img-responsive img-circle">
-                    <a href="https://krishnap25.github.io/">
-                        <h4>Krishna Pillutla</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/AB.jpg" class="img-responsive img-circle">
-                    <a href="https://sites.google.com/view/arpitabiswas">
-                        <h4>Arpita Biswas</h4>
-                    </a>
-                    <p class="text-muted">Rutgers University</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/AR1.jpg" class="img-responsive img-circle">
-                    <a href="https://sites.google.com/view/arun-rajkumar">
-                        <h4>Arun Rajkumar</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/HG.jpg" class="img-responsive img-circle">
-                    <a href="https://sites.google.com/site/harishguruprasad/">
-                        <h4>Harish G. Ramaswamy</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/CL.jpg" class="img-responsive img-circle">
-                    <a href="https://sites.google.com/view/chandrashekar-lakshminarayanan">
-                        <h4>Chandrashekar Lakshminarayanan</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/DJ.jpg" class="img-responsive img-circle">
-                    <a href="https://www.linkedin.com/in/devika-jay-b247354a/">
-                        <h4>Devika Jay</h4>
-                    </a>
-                    <p class="text-muted">GridSentry</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/GS.jpeg" class="img-responsive img-circle">
-                    <a href="https://gsk1692.github.io/">
-                        <h4>Gokul S. Krishnan</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/RV.jpg" class="img-responsive img-circle">
-                    <a href="">
-                        <h4>Rahul Vashisht</h4>
-                    </a>
-                    <p class="text-muted">IIT Madras</p>
-                </div>
-                <!--
-                <div class="team-member">
-                    <img src="./files_new/PhT.jpeg" class="img-responsive img-circle">
-                    <a href="https://eng.ox.ac.uk/people/philip-torr/">
-                        <h4>Philip Torr</h4>
-                    </a>
-                    <p class="text-muted">University of Oxford</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/ZW.jpg" class="img-responsive img-circle">
-                    <a href="https://zhaoyang.win/">
-                        <h4>Zhaoyang Wang</h4>
-                    </a>
-                    <p class="text-muted">UNC-Chapel Hill</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/SY.png" class="img-responsive img-circle">
-                    <a href="https://sustcsonglin.github.io/">
-                        <h4>Songlin Yang</h4>
-                    </a>
-                    <p class="text-muted">Massachusetts Institute of Technology</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/LZ.jpg" class="img-responsive img-circle">
-                    <a href="https://www.cs.washington.edu/people/faculty/luke-zettlemoyer/">
-                        <h4>Luke Zettlemoyer</h4>
-                    </a>
-                    <p class="text-muted">University of Washington Meta</p>
-                </div>
-
-                <div class="team-member">
-                    <img src="./files_new/JHZ.jpeg" class="img-responsive img-circle">
-                    <a href="https://zjhzjh123.github.io/">
-                        <h4>Jiaheng Zhang</h4>
-                    </a>
-                    <p class="text-muted">National University of Singapore</p>
-                </div>-->
+        <div class="organizers-grid">
+            <div class="team-member">
+                <img src="./files_new/BR.jpg" alt="Balaraman Ravindran">
+                <a href="https://dsai.iitm.ac.in/~ravi/">
+                    <h4>Balaraman Ravindran</h4>
+                </a>
+                <p>IIT Madras</p>
             </div>
-    </section>
+
+            <div class="team-member">
+                <img src="./files_new/AR.jpg" alt="Aravindan Raghuveer">
+                <a href="https://research.google/people/107631/?&type=google">
+                    <h4>Aravindan Raghuveer</h4>
+                </a>
+                <p>Google DeepMind</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/KP.jpg" alt="Krishna Pillutla">
+                <a href="https://krishnap25.github.io/">
+                    <h4>Krishna Pillutla</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/AB.jpg" alt="Arpita Biswas">
+                <a href="https://sites.google.com/view/arpitabiswas">
+                    <h4>Arpita Biswas</h4>
+                </a>
+                <p>Rutgers University</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/AR1.jpg" alt="Arun Rajkumar">
+                <a href="https://sites.google.com/view/arun-rajkumar">
+                    <h4>Arun Rajkumar</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/HG.jpg" alt="Harish G. Ramaswamy">
+                <a href="https://sites.google.com/site/harishguruprasad/">
+                    <h4>Harish G. Ramaswamy</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/CL.jpg" alt="Chandrashekar Lakshminarayanan">
+                <a href="https://sites.google.com/view/chandrashekar-lakshminarayanan">
+                    <h4>Chandrashekar Lakshminarayanan</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/DJ.jpg" alt="Devika Jay">
+                <a href="https://www.linkedin.com/in/devika-jay-b247354a/">
+                    <h4>Devika Jay</h4>
+                </a>
+                <p>GridSentry</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/GS.jpeg" alt="Gokul S. Krishnan">
+                <a href="https://gsk1692.github.io/">
+                    <h4>Gokul S. Krishnan</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/RV.jpg" alt="Rahul Vashisht">
+                <h4>Rahul Vashisht</h4>
+                <p>IIT Madras</p>
+            </div>
+        </div>
+    </div>
+</section>
 
     
        <section id="program-committee">
