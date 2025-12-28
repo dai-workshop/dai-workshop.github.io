@@ -715,7 +715,7 @@
     
     
     
-   
+   <!--
 
     <!-- Speaker Section -->
     <section id="speaker">
@@ -892,7 +892,141 @@
         </div>
         </div>
         </div> -->
-    </section>
+    </section> -->
+<!-- Speaker Section -->
+<section id="speaker">
+    <style>
+        /* Add these styles to your existing style section */
+
+        /* Common container width */
+        #speaker .container,
+        #organization .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Speakers Grid - 5 columns */
+        .speakers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            width: 100%;
+            padding: 0 40px;
+        }
+
+        .speakers-grid .team-member {
+            text-align: center;
+        }
+
+        .speakers-grid .team-member img {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        /* Organizers Grid - 5x3 */
+        .organizers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            width: 100%;
+            padding: 0 40px;
+        }
+
+        .organizers-grid .team-member {
+            text-align: center;
+        }
+
+        .organizers-grid .team-member img {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        /* Keep circular images */
+        .img-circle {
+            border-radius: 50%;
+        }
+
+        /* Remove existing column classes effects for these sections */
+        #speaker .col-sm-2,
+        #organization .col-sm-2 {
+            width: auto;
+            padding: 0;
+        }
+
+        /* Talk title & abstract */
+        .talk-title {
+            font-size: 14px;
+            font-style: italic;
+            margin: 4px 0 6px;
+            color: #444;
+        }
+
+        .talk-abstract {
+            font-size: 13px;
+            color: #555;
+            margin: 0 auto 10px;
+            max-width: 260px;
+            line-height: 1.4;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Invited Speakers</h2>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="speakers-grid">
+
+            <div class="team-member">
+                <img src="./files_new/ramayya-krishnan-bio.jpg" class="img-responsive img-circle">
+                <a href="https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya">
+                    <h4>Ramayya Krishnan</h4>
+                </a>
+                <p class="talk-title">TBD</p>
+                <p class="talk-abstract">TBD</p>
+                <p class="text-muted">Carnegie Mellon University</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/pradeepv.jpg" class="img-responsive img-circle">
+                <a href="http://www.mysmu.edu/faculty/pradeepv/">
+                    <h4>Pradeep Varakantham</h4>
+                </a>
+                <p class="talk-title">TBD</p>
+                <p class="talk-abstract">TBD</p>
+                <p class="text-muted">Singapore Management University</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/pw2.jpg" class="img-responsive img-circle">
+                <a href="https://koh.pw/">
+                    <h4>Pang Wei Koh</h4>
+                </a>
+                <p class="talk-title">TBD</p>
+                <p class="talk-abstract">TBD</p>
+                <p class="text-muted">University of Washington</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/bl.jpeg" class="img-responsive img-circle">
+                <a href="https://sites.google.com/site/boyilics/home">
+                    <h4>Boyi Li</h4>
+                </a>
+                <p class="talk-title">TBD</p>
+                <p class="talk-abstract">TBD</p>
+                <p class="text-muted">NVIDIA Research, UC Berkeley</p>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
     <section id="organization">
