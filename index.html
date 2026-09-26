@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/svg+xml" href="files_new/logo.jpg">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Deployable AI Workshop at AAAI 2026">
+
+
+    <title>The 4th Deployable AI Workshop </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./files_new/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./files_new/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./files_new/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./files_new/css" rel="stylesheet" type="text/css">
+    <link href="./files_new/css(1)" rel="stylesheet" type="text/css">
+    <link href="./files_new/css(2)" rel="stylesheet" type="text/css">
+    <link href="./files_new/css(3)" rel="stylesheet" type="text/css">
+    <link href="./files_new/css2" rel="stylesheet" type="text/css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6WWSN1M7GY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6WWSN1M7GY');
+</script>
+    
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-shrink">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <!--<ul class="nav navbar-nav navbar-middle">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+
+                    </ul>-->
+                    <ul class="nav navbar-nav navbar-middle">
+                        <li class="hidden active">
+                            <a href="#page-top"></a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#" style="left: -80px; font-size:22px;">The 4th Deployable AI Workshop
+                            </a>
+                        </li>
+                        <li>
+                            <a style="padding-left: 20px;"></a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#news">News</a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#introduction">About</a>
+                        </li>
+
+                        <li>
+                            <a class="page-scroll" href="#call">Call for
+                                Papers</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#program">Schedule</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#speaker">Invited
+                                Speakers</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#organization">Organizers</a>
+                        </li>
+                         <li>
+                            <a class="page-scroll" href="#program-committee">Program Committee</a>
+                        </li>
+                        <li>
+                            <!--<li>
+                            <a class="page-scroll" href="#contactt">Contact</a>
+                        </li>-->
+                        </li>
+                        <li>
+
+                            <!-- <li>
+                        <a class="buttom" href="index_2020.html">TSW 2020</a>
+                    </li> -->
+
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <style>
+            header {
+                background-image: url(img/GardensbyBay5.avif);
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                text-align: center;
+                padding: 20px 0;
+                position: relative;
+            }
+
+            /* Add a dark overlay to improve text readability */
+            header::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.4);
+                /* Semi-transparent dark overlay */
+                z-index: 1;
+            }
+
+            .container {
+                position: relative;
+                z-index: 2;
+                /* Place content above the overlay */
+            }
+
+            .intro-heading,
+            .intro-lead-in {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            }
+
+            .intro-heading {
+                font-size: 3.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                letter-spacing: 1px;
+            }
+
+            .intro-lead-in {
+                font-size: 1.8em;
+                margin-bottom: 15px;
+            }
+
+            header {
+                padding: 0px 0 0px 0;
+                /* Increase top padding */
+            }
+
+            .buttons {
+                margin-top: 0px;
+                position: relative;
+                z-index: 3;
+                /* Ensure button stays above overlay */
+            }
+
+            .btn {
+                margin: 15px 5px;
+                padding: 12px 24px;
+                color: #fff;
+                background-color: rgba(255, 255, 255, 0.15);
+                border: 2px solid rgba(255, 255, 255, 0.8);
+                border-radius: 5px;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                display: inline-block;
+                backdrop-filter: blur(5px);
+            }
+
+            .btn:hover {
+                background-color: rgba(255, 255, 255, 0.3);
+                transform: translateY(-2px);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            section {
+                position: relative;
+                padding: 40px 0;
+                /* Reduce padding from default */
+                margin: 0;
+            }
+
+            /* Add horizontal line between sections */
+            section:not(:last-child)::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0%;
+                right: 0%;
+                height: 1px;
+                background: #e0e0e0;
+            }
+
+            /* Reduce space between section heading and content */
+            .section-heading {
+                margin-bottom: 20px !important;
+            }
+
+            /* Adjust spacing in specific sections */
+            #news,
+            #introduction,
+            #call,
+            #dates,
+            #program,
+            #speaker,
+            #organization {
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        </style>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">
+                    <div>Deployable AI Workshop</div>
+                    <div> AAAI 2026</div>
+                </div>
+                <div class="intro-lead-in">Topaz Councourse, Singapore EXPO, Singapore Jan 26, 2026</div>
+                <!-- <div class="intro-lead-in">The workshop will be held in a hybrid format.</div> -->
+            </div>
+            <div class="buttons">
+                 <a href="https://sites.google.com/view/dai-2025" class="btn">AAAI 2025</a>
+                 <a href="https://sites.google.com/view/dai-2024" class="btn">AAAI 2024</a>
+                 <a href="https://sites.google.com/view/dai-2023" class="btn">AAAI 2023</a>
+           </div>
+           <!--
+           <div class="buttons">
+                <a href="https://sites.google.com/view/dai-2023" class="btn">AAAI 2023</a>
+            </div>
+           <div class="buttons">
+                <a href="https://sites.google.com/view/dai-2024" class="btn">AAAI 2024</a>
+            </div>
+            <div class="buttons">
+                <a href="https://sites.google.com/view/dai-2025/" class="btn">AAAI 2025</a>
+            </div>-->
+        </div>
+    </header>
+    <br><br><br><br>
+
+    <!-- News Section -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">News</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                    <ul class="large text-muted" style="float:left; width: 100%">   
+                        <li>
+                            <a href="https://docs.google.com/spreadsheets/d/1Cw6p5LqbRM0SpgRFqLYBU_3ckPfIKBULbZZOtMqH-nI/edit?usp=sharing"> Poster Sessions detailed Information </a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://drive.google.com/file/d/1iaWDCYEdOFWWLayrS1o-NBtVKRaVl5eo/view?usp=sharing"> Workshop Location</a>  and Date: Topaz Concourse, Singapore Expo Singapore. 26 January 2026 8:30 AM to 5:00 PM
+                        </li>    
+                        <li>
+                            We have updated the Tentative Schedule. 
+                        </li>
+                        <li>
+                            Please follow us on <a
+                            href="https://x.com/dai_workshop">Twitter</a> for the latest news. 
+                        </li>
+                        <li>
+                             Submission Deadline:  <s> 22 October 2025 (AOE) </s> <mybold>  Due to OpenReview outage we have extended the deadline to 23 October 2025 (AOE)</mybold>
+                        </li>
+                        <li>
+                            <mybold>Speaker List Updated...</mybold>
+                        </li>
+                        <li>
+                            AAAI Early Registeration deadline approaching 19 Nov 2025 (AoE), please visit <a href= "https://aaai.org/conference/aaai/aaai-26/registration/" > Link </a>
+                        </li>
+                      <!--  <li>
+                            Please fill the Program Committee review form, if interested <a href="https://docs.google.com/forms/d/e/1FAIpQLSeizru6yWfsL99I6y7gCO8Yr4InmHyn-2qC2pqDhfrdNhXCQQ/viewform?usp=sharing&ouid=114854376494738087002"> Link</a>.
+                        </li>
+                       -->
+                        </p>
+                </div>
+    </section>
+    
+    <!-- Introduction Section -->
+    
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">About</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+            </div>
+            <div class="row text-justify">
+                <style>
+                    /* 限制CSS作用范围 */
+                    .overview-section {
+                        max-width: 1200px;
+                        margin: 0 auto;
+                        padding: 40px 20px;
+                    }
+
+                    .overview-section .intro-text {
+                        font-size: 1.1em;
+                        line-height: 1.8;
+                        color: #444;
+                        margin-bottom: 40px;
+                    }
+
+                    .overview-section .questions-grid {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 30px;
+                        margin-top: 40px;
+                    }
+
+                    .overview-section .question-card {
+                        background: #f8f9fa;
+                        border-radius: 12px;
+                        padding: 25px;
+                        transition: transform 0.3s ease;
+                    }
+
+                    .overview-section .question-card:hover {
+                        transform: translateY(-5px);
+                    }
+
+                    .overview-section .question-title {
+                        color: #2c5282;
+                        font-size: 1.2em;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                        border-bottom: 2px solid #4299e1;
+                        padding-bottom: 8px;
+                    }
+
+                    .overview-section .question-content {
+                        color: #4a5568;
+                        line-height: 1.6;
+                    }
+                </style>
+                <div class="overview-section">
+                    <div class="intro-text">
+                         
+                         
+                         Artificial Intelligence (AI) has evolved into a vast interdisciplinary research area and we have reached an era where AI is beginning to be deployed as real-world solutions across various sectors/domains. Moving to a wider scope of deployment of the AI models into the real world is not just a simple question of translational research and engineering but also requires several fundamental research questions and issues, involving algorithmic, systemic and societal aspects, to be addressed. Therefore, it is crucial to carry out progressive research in the domain of Deployable AI and how the various deployability aspects with respect to AI models can ensure positive impacts on the society
+                        
+    </section> 
+ 
+
+    <!-- call for papers -->
+    <!-- <section id="call" class="bg-mid-gray"> -->
+    <section id="call">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Call for Papers</h2>
+
+                    <div class="row text-justify">
+                        <div class="col-md-12">
+
+
+                            <p class="large text-muted">
+                                 </p>
+                    
+                                <div style="font-family: system-ui, -apple-system, sans-serif;">
+                                    <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Key Dates</h1>
+                                    
+                                    <ul class="large text-muted" style="float:left; width: 100%">
+                                        <li style="margin-bottom: 0rem;">
+                                            <span style="font-weight: bold;">Paper Deadline:</span> <s>October 22, 2025 (AoE)</s> October 23, 2025 (AoE) 
+                                        </li>
+                                        <li style="margin-bottom: 0rem;">
+                                            <span style="font-weight: bold;">Notification:</span> <s>November 5, 2025</s>  November 8, 2025,  (AoE)
+                                        </li>
+                                        <li style="margin-bottom: 0rem;">
+                                            <span style="font-weight: bold;">Camera-ready:</span> Dec 1, 2025, (AoE) (Authors of accepted papers can deanonymize the paper and update the paper in openreview) 
+                                        </li>
+                                    </ul>
+                                    
+                                    <p style="margin-top: 1.5rem; line-height: 1.5;">
+                                        All deadlines follow the <span style="color: #1d6eb0;">Anywhere on Earth (AoE)</span> timezone.
+                                    </p>
+                                </div>
+
+                                <div style="font-family: system-ui, -apple-system, sans-serif;">
+                                    <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Submission Site</h1>
+
+                                    <p class="large text-muted">
+                                         Submit papers through the Deployable AI Workshop Submission Portal on OpenReview (<a
+                                        href="https://openreview.net/group?id=AAAI.org/2026/Workshop/DAI">Workshop Submission Portal)
+                                    </a>
+                                    </p>
+                                <div style="font-family: system-ui, -apple-system, sans-serif;">
+                                    <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Scope</h1>
+
+                                <p class="large text-muted">We welcome contributions across a broad spectrum of topics, including but not limited to:</p>
+
+                            <ul class="large text-muted" style="float:left; width: 100%">
+                                <li>Deployable AI: Concepts and Models</li>
+                                <li>Privacy-Preserving AI</li>
+                                <li> Language Models & Deployability</li> 
+                                <li>Explainable and Interpretable AI</li>
+                                <li>Fairness and Ethics in AI</li>
+                                <li>AI models and social impact</li>
+                                <li>Trustworthy AI models</li>     
+                            </ul>
+                            <div style="font-family: system-ui, -apple-system, sans-serif;">
+                                <h1 style="font-family: 'Georgia', serif; font-size: 2.5rem; margin-bottom: 1.5rem; color: #2c5282; font-weight: 600;">Submission Guidelines</h1>
+                            <p class="large text-muted">
+                                <mybold>Format:</mybold> &nbsp;All submissions must be a single PDF file. We welcome high-quality original papers in the following two tracks:
+                                <ul class="large text-muted" style="float:left; width: 100%">
+                                    <li style="margin-bottom: 0rem;">
+                                        <span style="font-weight: bold;">Short Papers:</span> 4 pages
+                                    </li>
+                                    <li style="margin-bottom: 0rem;">
+                                        <span style="font-weight: bold;">Long Papers:</span> 7 pages
+                                    </li>
+                                </ul>
+                                
+                                References and appendices are not included in the page limit, but the main text must be self-contained. Reviewers are not required to read beyond the main text
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>IAAI-26 Special Track Resubmision:</mybold> &nbsp;Authors of papers submitted to IAAI-26 that are not accepted are invited to consider submitting their work to the DAI-2026 Workshop, which focuses on Deployable AI. Submissions should align with the scope of the workshop. 
+                                <ul class="large text-muted" style="float:left; width: 100%">
+                                    <li style="margin-bottom: 0rem;">
+                                        <span style="font-weight: bold;">You will need to submit a 2-page review response pdf including the reviews. Please follow the AAAI-style format for review response also.</span>
+                                    </li>
+                                </ul>
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>Style file:</mybold> &nbsp; You must format your submission using the AAAI 2026
+                                LaTeX style file. Please
+                                include the references and supplementary materials in the same PDF.
+                                The maximum file size for submissions is 50MB. Submissions that violate the AAAI style
+                                (e.g., by decreasing margins or font sizes) or page limits may be rejected without
+                                further review.
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>Dual-submission and non-archival policy:</mybold> &nbsp;We welcome ongoing and unpublished work.
+                                We will also accept papers that are under review at the time of submission, or that have
+                                been recently accepted, , provided they do not breach any dual-submission or anonymity policies of those venues. The workshop is a non-archival venue and will not
+                                have official proceedings. Workshop submissions can be subsequently or concurrently
+                                submitted to other venues.
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>Visibility:</mybold> &nbsp; Submissions and reviews will not be public. Only
+                                accepted papers will be made public.
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>Double-blind reviewing:</mybold> &nbsp; All submissions must be anonymized and
+                                may not contain any identifying information that may violate the double-blind reviewing
+                                policy. This policy applies to any supplementary or linked material as well, including
+                                code. If you are including links to any external material, it is your responsibility to
+                                guarantee anonymous browsing. Please do not include acknowledgements at submission time.
+                                If you need to cite one of your own papers, you should do so with adequate anonymization
+                                to preserve double-blind reviewing. Any papers found to be violating this policy will be
+                                rejected.
+                            </p>
+                            <p class="large text-muted">
+                                <mybold>Contact:</mybold> &nbsp; For any questions, please contact us at <a
+                                    href="mailto:fmwild2025@googlegroups.com">dai2023workshop@gmail.com</a>.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+<!-- Update the program section here -->
+    <!-- Program Section -->
+    <section id="program">
+    <style>
+            /* Scope all styles to the program section */
+            #program {
+                color: #333;
+            }
+
+            .section-heading {
+                text-align: center;
+                color: #333;
+                margin-bottom: 1.5rem;
+            }
+
+            #program .text-muted {
+                color: #666;
+                text-align: center;
+                font-style: italic;
+                margin: 1rem 0 2rem;
+            }
+
+            #program h3 {
+                color: #2c5282;
+                margin: 2rem 0 1rem;
+            }
+
+            #program .table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 1rem 0 2rem;
+            }
+
+            #program .table td {
+                padding: 12px 15px;
+                border: 1px solid #ddd;
+            }
+
+            #program .table tr:nth-child(even) {
+                background-color: #f8f9fa;
+            }
+
+            /* Special session highlights */
+            #program .table tr:has(td:contains("Break")) {
+                background-color: #ebf4ff;
+            }
+
+            #program .table tr:has(td:contains("Poster Session")) {
+                background-color: #f0fff4;
+            }
+
+            /* Time column */
+            #program .table td:first-child {
+                width: 140px;
+                font-weight: 500;
+                color: #2d3748;
+            }
+
+            #program .centered {
+                margin: 0 auto;
+            }
+        </style>
+        
+                <div class="container">
+           <!-- <h2 class="section-heading">Schedule</h2>
+            <p style="font-size: 25px;" ><strong> TBD </strong></p>
+             <p class="text-muted">This is the tentative schedule of the workshop. All slots are provided in local time.
+            </p> -->
+
+            <div id="schedule"> </div> 
+            </div>
+        <div class="container">
+            <h2 class="section-heading">Tentative Schedule</h2>
+            <p class="text-muted">This is the tentative schedule of the workshop. All slots are provided in local time.
+            </p>
+
+            <div id="schedule">
+                <h3>Morning Session</h3>
+                <div class="centered">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>09:00 AM - 09:05 AM</td>
+                                <td>Introduction and Opening Remarks</td>
+                            </tr>
+                            <tr>
+                                <td>09:05 AM - 09:40 AM</td>
+                                <td>Keynote 1- AI Capabilities vs. AI Deployment: Models and methods to fill the gap, Prof. Ramayya Krishnan, Carnegie Mellon University</td>
+                            </tr>
+                            <tr>
+                                <td>09:40 AM - 10:15 AM</td>
+                                <td>Keynote 2- Towards Reliable Assistance: Safety and Security in Sequential Decision-Making, Pradeep Varakantham Singapore Management University
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>10:15 AM - 10:25 AM</td>
+                                <td>Oral Talk 1- <a
+                            href="https://openreview.net/pdf?id=RwMpaWsJUc"> DETNO: A DIFFUSION-ENHANCED TRANSFORMER NEURALOPERATOR FOR LONG-TERM TRAFFIC FORECASTING </a></td>
+                            </tr>
+
+                            <tr>
+                                <td>10:25 AM- 10:35 AM </td>
+                                <td>Oral Talk 2- <a href="https://openreview.net/pdf?id=ORcZeclCEe">Dynamic Orthogonal Continual Fine-tuning for Mitigating Catastrophic Forgetting of LLMs </td>
+                            </tr>
+                            <tr>
+                                <td>10:35 AM - 11:30 AM </td>
+                                <td>Break and <a href="https://docs.google.com/spreadsheets/d/1Cw6p5LqbRM0SpgRFqLYBU_3ckPfIKBULbZZOtMqH-nI/edit?usp=sharing">Poster Session 1 </a></td>
+                            </tr>
+                            
+                        <!--   <tr>
+                                <td>11:30 AM- 11:40 AM</td>
+                                <td> Oral Talk 3 - <a href="https://openreview.net/pdf?id=Wqv9lM6bka"> 3D Optimization for AI Inference Scaling: Balancing Accuracy, Cost, and Latency </a> </td>
+                            </tr> -->
+                            
+                            <tr>
+                                <td>11:30 AM - 11:40 AM</td>
+                                <td>Oral Talk 3 - <a href="https://openreview.net/pdf?id=ApPsu5ReUq">Alignment-Constrained Dynamic Pruning for LLMs: Identifying and Preserving Alignment-Critical Circuits </a> </td>
+                            </tr>
+                            <tr>
+                                <td>11:40 AM - 11:50 AM</td>
+                                <td>Oral Talk 4 -<a href="https://openreview.net/pdf?id=BOj52JMdjw"> Efficient Multi-Model Orchestration for Self-Hosted Large Language Models  </a> </td>
+                            </tr>
+                            <tr>
+                                <td>11:50 AM - 12:00 AM</td>
+                                <td>Oral Talk 5 -<a href="https://openreview.net/pdf?id=wiC2JEns7s">  A Task-Level Explanation Framework for Meta-Learning Algorithms </a> </td>
+                            </tr>
+                            <tr>
+                                <td>12:00 AM - 12:50 PM</td>
+                                <td> <a href="https://docs.google.com/spreadsheets/d/1Cw6p5LqbRM0SpgRFqLYBU_3ckPfIKBULbZZOtMqH-nI/edit?usp=sharing">Poster Session 2 </a></td>
+                            </tr>
+                            <tr>
+                                <td>12:50 PM - 2:00 PM</td>
+                                <td> Lunch Break </td>
+                            </tr>
+                            <tr>
+                                <td>2:00 PM - 2:30 PM</td>
+                                <td>Global North, South & the Future: A Fireside Chat on Responsible AI Prof. Gopal Ramchurn (Uni of Southampton, RAI UK), Prof. Balaraman Ravindran (CeRAI & WSAI, IIT Madras)</td>
+                            </tr>
+                            <tr>
+                                <td>2:30 PM - 3:00 PM</td>
+                                <td>Keynote 3: Foundation Motion: Auto-Labeling and Reasoning about Spatial Movement in Videos, Boyi Li, Nvidia Research, UC Berkeley</td>
+                            </tr>
+                            <tr>
+                                <td>3:00 PM - 3:10 PM </td>
+                                <td>Oral Talk 6 -<a href="https://openreview.net/pdf?id=FH10SQQz5N"> Explainability Methods Can Be Biased: An Empirical Investigation of Gender Disparity in Post-hoc Methods </a> </td>
+                            </tr>
+                            <tr>
+                                <td>3:10 PM - 4:05 PM</td>
+                                <td>Break 2 and <a href="https://docs.google.com/spreadsheets/d/1Cw6p5LqbRM0SpgRFqLYBU_3ckPfIKBULbZZOtMqH-nI/edit?usp=sharing">Poster Session 3 </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4:05 PM - 4:40 PM </td>
+                                <td>  Keynote 4 - Abstract: Finding supervision for complex tasks Pang Wei Koh University of Washington   </td>
+                            </tr>
+                             <tr>
+                                <td>4:40 PM - 4:50 PM</td>
+                                <td>Oral Talk 7- <a href="https://openreview.net/pdf?id=ow2vpEmJJX"> V-OCBF: Learning Safe Filters from Offline Data via Value-Guided Offline Control Barrier Functions</a> </td>
+                            </tr>
+                             <tr>
+                                <td>4:50 PM - 5:00 PM</td>
+                                <td>Oral Talk 8 - <a href="https://openreview.net/pdf?id=M4fTFgS3ap">Quantifying Strategic Ambiguity in Corporate Language for AI-Driven Trading Strategies </a>  </td>
+                            </tr>
+                            <tr>
+                                <td>5:00 PM - 5:10 PM</td>
+                                <td>Oral Talk 9 - <a href="https://openreview.net/pdf?id=uuGGtZCU0W">Safe and Deployable LLM Adaptation: Directional Deviation Index–Guided Model Pruning </a> </td>
+                            </tr>
+                           <tr>
+                                <td>5:10 - 5:15 PM</td>
+                                <td>Closing Remarks </td>
+                            </tr>
+                        
+                        </tbody>
+                    </table>
+                </div>
+        </div> 
+    </section> 
+    
+    
+    
+
+
+    <!-- Speaker Section 
+    <section id="speaker">
+        <style>
+            /* Add these styles to your existing style section */
+
+            /* Common container width */
+            #speaker .container,
+            #organization .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 15px;
+            }
+
+            /* Speakers Grid - 4x2 */
+            .speakers-grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 20px;
+                width: 100%;
+                padding: 0 40px;
+            }
+
+            .speakers-grid .team-member {
+                text-align: center;
+            }
+
+            .speakers-grid .team-member img {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+            }
+
+            /* Organizers Grid - 5x3 */
+            .organizers-grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                gap: 20px;
+                width: 100%;
+                padding: 0 40px;
+            }
+
+            .organizers-grid .team-member {
+                text-align: center;
+            }
+
+            .organizers-grid .team-member img {
+                width: 150px;
+                height: 150px;
+                margin: 0 auto;
+            }
+
+            /* Keep circular images */
+            .img-circle {
+                border-radius: 50%;
+            }
+
+            /* Remove existing column classes effects for these sections */
+            #speaker .col-sm-2 {
+                width: auto;
+                padding: 0;
+            }
+            #organization .col-sm-2 {
+                width: auto;
+                padding: 0;
+            }
+        </style>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">Invited Speakers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <!-- <p style="font-size: 25px;"> <strong> TBD </strong></p> 
+
+            <div class="speakers-grid">
+                <div class="team-member">
+                    <img src="./files_new/ramayya-krishnan-bio.jpg" class="img-responsive img-circle">
+                    <a href="https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya">
+                        <h4>Ramayya Krishnan</h4>
+                    </a>
+                    <p class="text-muted">Carnegie Mellon University</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/pradeepv.jpg" class="img-responsive img-circle">
+                    <a href="http://www.mysmu.edu/faculty/pradeepv/">
+                        <h4>Pradeep Varakantham</h4>
+                    </a>
+                    <p class="text-muted">Singapore Management University</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/pw2.jpg" class="img-responsive img-circle">
+                    <a href="https://koh.pw/">
+                        <h4>Pang Wei Koh</h4>
+                    </a>
+                    <p class="text-muted">University of Washington</p>
+                </div>
+               <div class="team-member">
+                    <img src="./files_new/bl.jpeg" class="img-responsive img-circle">
+                    <a href="https://sites.google.com/site/boyilics/home">
+                        <h4>Boyi Li</h4>
+                    </a>
+                    <p class="text-muted">NVIDIA Research, UC Berkeley</p>
+                </div>
+ 
+                <div class="team-member">
+                    <img src="./files_new/JK.jpg" class="img-responsive img-circle">
+                    <a href="https://jeankossaifi.com/">
+                        <h4>Jean Kossaifi</h4>
+                    </a>
+                    <p class="text-muted">NVIDIA Research</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/GL.png" class="img-responsive img-circle">
+                    <a href="https://ghli.org/">
+                        <h4>Guohao Li</h4>
+                    </a>
+                    <p class="text-muted">CAMEL-AI</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/RS.jpg" class="img-responsive img-circle">
+                    <a href="https://www.comp.nus.edu.sg/~reza/">
+                        <h4>Reza Shokri</h4>
+                    </a>
+                    <p class="text-muted">National University of Singapore; Microsoft</p>
+                </div>
+            
+                <div class="team-member">
+                    <img src="./files_new/ls.jpg" class="img-responsive img-circle">
+                    <a href="https://dasongle.github.io//">
+                        <h4>Le Song</h4>
+                    </a>
+                    <p class="text-muted">GenBio AI; MBZUAI</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/YT.jpeg" class="img-responsive img-circle">
+                    <a href="https://yuandong-tian.com/">
+                        <h4>Yuandong Tian</h4>
+                    </a>
+                    <p class="text-muted">Meta AI</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/RV.jpeg" class="img-responsive img-circle">
+                    <a href="https://www.grasp.upenn.edu/people/rene-vidal/">
+                        <h4>René Vidal</h4>
+                    </a>
+                    <p class="text-muted">University of Pennsylvania</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="./files_new/JY.jpg" class="img-responsive img-circle">
+                    <a href="https://thinklab.sjtu.edu.cn/">
+                        <h4>Junchi Yan</h4>
+                    </a>
+                    <p class="text-muted">Shanghai Jiao Tong University</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        </div>
+        </div>
+        </div>
+        </div> 
+    </section> -->
+
+
+<!-- Speaker Section -->
+<section id="speaker">
+    <style>
+        /* Common container width */
+        #speaker .container,
+        #organization .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Speakers Grid - 5 columns */
+        .speakers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            width: 100%;
+            padding: 0 40px;
+        }
+
+        .speakers-grid .team-member {
+            text-align: center;
+        }
+
+        .speakers-grid .team-member img {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        /* Keep circular images */
+        .img-circle {
+            border-radius: 50%;
+        }
+
+        /* Remove existing column classes effects */
+        #speaker .col-sm-2 {
+            width: auto;
+            padding: 0;
+        }
+
+        /* Talk title */
+        .talk-title {
+            font-size: 14px;
+            font-style: italic;
+            margin: 4px 0 6px;
+            color: #444;
+        }
+
+       /* ===== Speaker-only abstract hover styles ===== */
+      #speaker .abstract-container {
+              position: relative;
+              display: inline-block;
+              margin-bottom: 10px;
+              z-index: 1000; /* Make sure container is on top */
+      }
+
+      #speaker .abstract-label {
+               font-size: 13px;
+               font-weight: 600;
+               color: #337ab7;
+               cursor: pointer;
+                }
+
+        #speaker .abstract-label:hover {
+            text-decoration: underline;
+        }
+
+        #speaker .abstract-popup {
+            display: none;
+            opacity: 0;
+        
+            position: relative;   /* stays in document flow */
+            margin-top: 10px;     /* space below "Abstract" */
+        
+            width: 100%;
+            max-width: 320px;
+            box-sizing: border-box;
+            
+        
+            background: rgba(255,255,255,0.98);
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            padding: 12px;
+        
+            font-size: 13px;
+            line-height: 1.4;
+            text-align: left;
+        
+            box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+            transition: opacity 0.25s ease;
+        }
+
+        #speaker .abstract-popup::before {
+            content: "";
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 7px;
+            border-style: solid;
+            border-color: transparent transparent rgba(255,255,255,0.98) transparent;
+        }
+
+        #speaker .abstract-container:hover .abstract-popup {
+            display: block;
+            opacity: 1;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Invited Speakers</h2>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="speakers-grid">
+
+            <!-- Speaker 1 -->
+            <div class="team-member">
+                <img src="./files_new/ramayya-krishnan-bio.jpg" class="img-responsive img-circle">
+                <a href="https://www.heinz.cmu.edu/faculty-research/profiles/krishnan-ramayya">
+                    <h4>Ramayya Krishnan</h4>
+                </a>
+                <p class="text-muted">Carnegie Mellon University</p>
+                <p class="talk-title">
+                  <mybold>  AI Capabilities vs. AI Deployment: Models and methods to fill the gap </mybold>
+                </p>
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        AI capabilities are developing rapidly, with new benchmarks
+                        focusing on realistic tasks. While models approach human-level
+                        performance, organizations struggle to deploy them effectively.
+                        This talk examines the capability–deployment gap and argues for
+                        a systems approach that incorporates user, organizational, and
+                        policy constraints. Methods from operations research and
+                        statistics are used to inform evaluation, robustness, and
+                        workflow redesign for human–AI collaboration.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker 2 -->
+            <div class="team-member">
+                <img src="./files_new/pradeepv.jpg" class="img-responsive img-circle">
+                <a href="http://www.mysmu.edu/faculty/pradeepv/">
+                    <h4>Pradeep Varakantham</h4>
+                </a>
+                <p class="text-muted">Singapore Management University</p>
+                <p class="talk-title">
+                    <mybold> Towards Reliable Assistance: Safety and Security in Sequential Decision-Making </mybold>
+                </p>
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        This talk outlines a research agenda on developing sequential
+                        decision-making systems that assist humans. It highlights
+                        recent work on constrained reinforcement learning and defenses
+                        against adversarial attacks, ensuring agents remain safe under
+                        constraints and robust to malicious interference.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker 3 -->
+            <div class="team-member">
+                <img src="./files_new/pw2.jpg" class="img-responsive img-circle">
+                <a href="https://koh.pw/">
+                    <h4>Pang Wei Koh</h4>
+                </a>
+                <p class="text-muted">University of Washington</p>
+                <p class="talk-title"> <mybold> Finding supervision for complex tasks </mybold> </p>
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        Language models are tackling tasks so complex that solving or even verifying them requires significant time and expertise, making it challenging to acquire training data at scale. In this talk, we will discuss three approaches to this problem. First, we will show that models can learn a surprising amount through "delta learning", that is, from relative quality differences between paired data, even if this data is of worse quality than what our model already produces. Second, we will introduce EvalTree, our approach to profiling weaknesses of language models; in turn, this lets us efficiently collect training data tailored for a given model. Finally, we will discuss our work on training DR Tulu, a long-form deep research model, by using RL with rubrics that evolve as the model trains, thereby providing discriminative training signals even on complex deep research tasks.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speaker 4 -->
+            <div class="team-member">
+                <img src="./files_new/bl.jpeg" class="img-responsive img-circle">
+                <a href="https://sites.google.com/site/boyilics/home">
+                    <h4>Boyi Li</h4>
+                </a>
+                <p class="text-muted">NVIDIA Research, UC Berkeley</p>
+                <p class="talk-title">
+                   <mybold> FoundationMotion: Auto-Labeling and Reasoning about Spatial Movement in Videos </mybold>
+                </p>
+                <div class="abstract-container">
+                    <span class="abstract-label">Abstract</span>
+                    <div class="abstract-popup">
+                        Understanding motion is central to physical reasoning, yet
+                        existing datasets are costly to scale. This talk introduces
+                        FoundationMotion, an automated pipeline that constructs
+                        large-scale motion datasets from videos using object tracking
+                        and large language models. Models trained on these datasets
+                        achieve substantial gains in motion understanding and spatial
+                        reasoning, outperforming strong closed- and open-source baselines.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section id="organization">
+    <style>
+        /* Organization Section Grid */
+        #organization .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .organizers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Flexible 5-column layout */
+            gap: 20px;
+            justify-items: center; /* Center each organizer */
+            padding: 0 20px;
+        }
+
+        .organizers-grid .team-member {
+            text-align: center;
+        }
+
+        .organizers-grid .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Circular */
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .organizers-grid .team-member h4 {
+            font-size: 16px;
+            margin: 5px 0 2px;
+        }
+
+        .organizers-grid .team-member p {
+            font-size: 14px;
+            color: #777;
+            margin: 0;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Workshop Organizers</h2>
+            </div>
+        </div>
+
+        <br><br><br>
+
+        <div class="organizers-grid">
+            <div class="team-member">
+                <img src="./files_new/BR.jpg" alt="Balaraman Ravindran">
+                <a href="https://dsai.iitm.ac.in/~ravi/">
+                    <h4>Balaraman Ravindran</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/AR.jpg" alt="Aravindan Raghuveer">
+                <a href="https://research.google/people/107631/?&type=google">
+                    <h4>Aravindan Raghuveer</h4>
+                </a>
+                <p>Google DeepMind</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/KP.jpg" alt="Krishna Pillutla">
+                <a href="https://krishnap25.github.io/">
+                    <h4>Krishna Pillutla</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/AB.jpg" alt="Arpita Biswas">
+                <a href="https://sites.google.com/view/arpitabiswas">
+                    <h4>Arpita Biswas</h4>
+                </a>
+                <p>Rutgers University</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/AR1.jpg" alt="Arun Rajkumar">
+                <a href="https://sites.google.com/view/arun-rajkumar">
+                    <h4>Arun Rajkumar</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/HG.jpg" alt="Harish G. Ramaswamy">
+                <a href="https://sites.google.com/site/harishguruprasad/">
+                    <h4>Harish G. Ramaswamy</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/CL.jpg" alt="Chandrashekar Lakshminarayanan">
+                <a href="https://sites.google.com/view/chandrashekar-lakshminarayanan">
+                    <h4>Chandrashekar Lakshminarayanan</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/DJ.jpg" alt="Devika Jay">
+                <a href="https://www.linkedin.com/in/devika-jay-b247354a/">
+                    <h4>Devika Jay</h4>
+                </a>
+                <p>GridSentry</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/GS.jpeg" alt="Gokul S. Krishnan">
+                <a href="https://gsk1692.github.io/">
+                    <h4>Gokul S. Krishnan</h4>
+                </a>
+                <p>IIT Madras</p>
+            </div>
+
+            <div class="team-member">
+                <img src="./files_new/RV.jpg" alt="Rahul Vashisht">
+                <h4>Rahul Vashisht</h4>
+                <p>IIT Madras</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+       <section id="program-committee">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Program Committee</h2>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="list-unstyled">
+                    <li><a href="https://www.linkedin.com/in/anuja-agrawal-34038933/">Anuja Agrawal</a> - Senior Staff Engineer and Researcher, Google</li>
+                    <li><a href="https://www.amazon.science/author/monica-sunkara">Monica Sunkara</a> – AWS Bedrock Agents, Science Leader</li>
+                    <li><a href="https://www.cse.iitm.ac.in/profile.php?arg=MjMyMA==">Abdul Bakey Mir</a> - Ph.D. Scholar, IIT Madras</li>
+                    <li><a href="https://openreview.net/profile?id=~Srividhya_Sethuraman1">Srividhya Sethuraman</a> – M.S. Scholar, IIT Madras </li>
+                    <li><a href="https://openreview.net/profile?id=~Aayushman2">Aayushman</a> – Researcher, IIT Madras</li>
+                    <li><a href="https://openreview.net/profile?id=~Shivangi_Shreya1">Shivangi Shreya</a> – M.S. Scholar, IIT Madras</li>
+                    <li><a href="https://openreview.net/profile?id=~Ritwiz_Kamal1">Ritwiz Kamal</a> – Ph.D. Scholar IIT Madras</li>
+                    <li><a href="https://nasib-ullah.github.io/">Nasibullah</a> – Ph.D. Scholar, Aalto University</li>
+                    <li><a href="https://www.cse.iitm.ac.in/profile.php?arg=MTk0MQ==">Sonam</a> – Researcher, International Business Machines(IBM) </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- <section id="sponsor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading">Workshop Sponsors</h2>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="row row-centered ">
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="./files_new/foundry.png" height="150" width="250">
+                        <a href="https://www.mlfoundry.com/">
+                            <h4 style="text-align: center;">Foundry</h4>
+                        </a>
+                    </div>
+                </div> -->
+
+
+    <!-- <section id="contactt">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <h2 class="section-heading">Contact</h2>
+                                            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                                            <p class="large text-muted">
+
+                                                Please contact if you have any questions.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+    </section>-->
+
+
+
+
+
+
+    <!--     <section id="contact">
+        <br class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Sponsored by</h3>
+            </div>
+        </div>
+        <div class="center">
+            <center>
+            <a >
+                <img src="img/logo2x.png" class="center" alt="" height="120" usemap="#planetmap">
+                <map name="planetmap">  
+                     
+                   <area shape="rect" coords="0,0,250,250" alt="Sun" href="https://realai.ai">  
+                    
+                 </map>  
+            </a>
+                
+            </center>
+        </div> -->
+
+
+
+    <!-- </div> -->
+    <!-- </section> -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="./files_new/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./files_new/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="./files_new/jquery.easing.min.js"></script>
+    <script src="./files_new/classie.js"></script>
+    <script src="./files_new/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./files_new/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="./files_new/agency.js"></script>
+
+
+
+
+</body>
+
+</html>
